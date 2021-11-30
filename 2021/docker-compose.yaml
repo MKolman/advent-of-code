@@ -1,0 +1,79 @@
+services:
+  node:
+    image: node:alpine
+    working_dir: /home/aoc
+    volumes:
+      - ".:/home/aoc"
+  ruby:
+    image: ruby:alpine
+    working_dir: /home/aoc
+    volumes:
+      - ".:/home/aoc"
+  java: 
+    image: java:alpine
+    working_dir: /home/aoc
+    volumes:
+      - ".:/home/aoc"
+  swift: 
+    image: swift
+    working_dir: /home/aoc
+    volumes:
+      - ".:/home/aoc"
+  julia: 
+    image: julia:alpine
+    working_dir: /home/aoc
+    volumes:
+      - ".:/home/aoc"
+  kotlin: 
+    image: zenika/kotlin:alpine
+    working_dir: /home/aoc
+    volumes:
+      - ".:/home/aoc"
+  mono: 
+    image: mono
+    working_dir: /home/aoc
+    volumes:
+      - ".:/home/aoc"
+  pascal: 
+    image: primeimages/freepascal
+    working_dir: /home/aoc
+    volumes:
+      - ".:/home/aoc"
+  r: 
+    image: r-base
+    working_dir: /home/aoc
+    volumes:
+      - ".:/home/aoc"
+  spl: 
+    build:
+      context: .
+      dockerfile: docker/shakespearelang
+    working_dir: /home/aoc
+    volumes:
+      - ".:/home/aoc"
+  lolcode: 
+    image: esolang/lolcode
+    working_dir: /home/aoc
+    volumes:
+      - ".:/home/aoc"
+  sql: 
+    image: nouchka/sqlite3
+    working_dir: /home/aoc
+    volumes:
+      - ".:/home/aoc"
+  haskell: 
+    image: haskell
+    working_dir: /home/aoc
+    volumes:
+      - ".:/home/aoc"
+  dart: 
+    image: dart
+    working_dir: /home/aoc
+    volumes:
+      - ".:/home/aoc"
+  scala: 
+    image: bigtruedata/scala:alpine
+    working_dir: /home/aoc
+    volumes:
+      - ".:/home/aoc"
+
