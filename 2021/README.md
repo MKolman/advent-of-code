@@ -23,7 +23,7 @@ sorted from what I understand most to least.
 - [ ] Pascal
 - [ ] Excel
 - [ ] R
-- [ ] Flutter
+- [ ] Dart
 - [ ] Haskell
 - [ ] Scala
 - [ ] SQL

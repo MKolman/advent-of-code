@@ -47,7 +47,7 @@ services:
   spl: 
     build:
       context: .
-      dockerfile: docker/shakespearelang
+      dockerfile: docker/shakespearelang.dockerfile
     working_dir: /home/aoc
     volumes:
       - ".:/home/aoc"
