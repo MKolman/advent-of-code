@@ -44,3 +44,10 @@ sorted from what I understand most to least.
 - [ ] SQL
 - [ ] LOLCODE
 - [x] Shakespeare
+
+## Code Golf
+For some problems I also made a as short as possible solution in python. Stored in `golf` folder.
+```
+python3 golf/day01.py < input/day01.txt
+```
+
