@@ -28,4 +28,4 @@ sorted from what I understand most to least.
 - [ ] Scala
 - [ ] SQL
 - [ ] LOLCODE
-- [ ] Shakespeare
+- [x] Shakespeare
