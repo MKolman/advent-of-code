@@ -42,7 +42,7 @@ sorted from what I understand most to least.
 - [ ] Haskell
 - [ ] Scala
 - [ ] SQL
-- [ ] LOLCODE
+- [x] LOLCODE
 - [x] Shakespeare
 
 ## Code Golf
