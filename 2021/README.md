@@ -36,7 +36,7 @@ sorted from what I understand most to least.
 - [ ] Kotlin
 - [ ] C#
 - [ ] Pascal
-- [ ] Excel
+- [x] Excel
 - [ ] R
 - [ ] Dart
 - [ ] Haskell
