@@ -1,2 +1,3 @@
-n=[int(l)for l in open(0)]
-print(sum(i<j for i,j in zip(n,n[1:])),sum(i<j for i,j in zip(n,n[3:])))
+*n,=map(int,open(0))
+f=lambda x:sum(i<j for i,j in zip(n,n[x:]))
+print(f(1),f(3))
