@@ -40,7 +40,7 @@ sorted from what I understand most to least.
 - [ ] R
 - [ ] Dart
 - [ ] Haskell
-- [ ] Scala
+- [x] Scala
 - [ ] SQL
 - [x] LOLCODE
 - [x] Shakespeare

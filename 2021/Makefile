@@ -12,4 +12,9 @@ day03:
 	# ===== DAY 03 =====
 	xdg-open https://google.com >/dev/null 2>&1 || echo "Day 03 solution available at: https://docs.google.com/spreadsheets/d/1VV2_DT8vGQxzXnMW4ANaw7kSrRkH3nsDQpm2YpHVAQA/edit#gid=0"
 
-all: day01 day02 day03
+day04:
+	# ===== DAY 04 =====
+	docker-compose run scala scalac solutions/day04_1.scala -d bin
+	docker-compose run scala scala -classpath bin day04_1 < input/day04.txt
+
+all: day01 day02 day03 day04
