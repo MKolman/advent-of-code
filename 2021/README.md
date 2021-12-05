@@ -39,7 +39,7 @@ sorted from what I understand most to least.
 - [x] Excel
 - [ ] R
 - [ ] Dart
-- [ ] Haskell
+- [x] Haskell
 - [x] Scala
 - [ ] SQL
 - [x] LOLCODE

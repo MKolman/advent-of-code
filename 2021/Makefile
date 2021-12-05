@@ -17,4 +17,8 @@ day04:
 	docker-compose run scala scalac solutions/day04_1.scala -d bin
 	docker-compose run scala scala -classpath bin day04_1 < input/day04.txt
 
+day05:
+	# ===== DAY 05 =====
+	docker-compose run haskell runhaskell solutions/day05.hs < input/day05.txt
+
 all: day01 day02 day03 day04
