@@ -21,4 +21,8 @@ day05:
 	# ===== DAY 05 =====
 	docker-compose run haskell runhaskell solutions/day05.hs < input/day05.txt
 
-all: day01 day02 day03 day04
+day06:
+	# ===== DAY 06 =====
+	docker-compose run sql < solutions/day06.sql
+
+all: day01 day02 day03 day04 day05 day06

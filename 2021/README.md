@@ -41,7 +41,7 @@ sorted from what I understand most to least.
 - [ ] Dart
 - [x] Haskell
 - [x] Scala
-- [ ] SQL
+- [x] SQL
 - [x] LOLCODE
 - [x] Shakespeare
 
