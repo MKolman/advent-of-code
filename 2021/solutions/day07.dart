@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'dart:math';
 
-int solve(List<int> nums, bool easy) {
+int hard(List<int> nums) {
   // leftCost[d] tells us how much it costs for crabs to the left of d to move to d
   var leftCost = List<int>.filled(nums.last - nums[0] + 1, 0);
   // rightCost[d] tells us how much it costs for crabs to the right of d to move to d
@@ -17,7 +17,7 @@ int solve(List<int> nums, bool easy) {
     while (d < leftCost.length - 1 && nums[many] == nums[0] + d) {
       many += 1;
     }
-    moveCost = easy ? many : moveCost + many;
+    moveCost += many;
   }
 
   // Fill rightCost
@@ -30,7 +30,7 @@ int solve(List<int> nums, bool easy) {
     while (d > 0 && nums[nums.length - 1 - many] == nums[0] + d) {
       many += 1;
     }
-    moveCost = easy ? many : moveCost + many;
+    moveCost += many;
   }
 
   // Find min leftCost[d]+rightCost[d]
@@ -41,10 +41,19 @@ int solve(List<int> nums, bool easy) {
   return many;
 }
 
+int easy(List<int> nums) {
+  var m = nums[nums.length ~/ 2];
+  var r = 0;
+  for (var n in nums) {
+    r += max(n-m, m-n);
+  }
+  return r;
+}
+
 void main() {
   final nums = stdin.readLineSync()!.split(',').map(int.parse).toList();
   nums.sort();
-  print(solve(nums, true));
-  print(solve(nums, false));
+  print(easy(nums));
+  print(hard(nums));
 }
 
