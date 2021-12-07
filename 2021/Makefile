@@ -25,4 +25,8 @@ day06:
 	# ===== DAY 06 =====
 	docker-compose run sql < solutions/day06.sql
 
-all: day01 day02 day03 day04 day05 day06
+day07:
+	# ===== DAY 07 =====
+	docker-compose run dart dart run solutions/day07.dart < input/day07.txt
+
+all: day01 day02 day03 day04 day05 day06 day07

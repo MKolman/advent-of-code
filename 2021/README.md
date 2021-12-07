@@ -38,7 +38,7 @@ sorted from what I understand most to least.
 - [ ] Pascal
 - [x] Excel
 - [ ] R
-- [ ] Dart
+- [x] Dart
 - [x] Haskell
 - [x] Scala
 - [x] SQL
