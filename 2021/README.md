@@ -37,7 +37,7 @@ sorted from what I understand most to least.
 - [ ] C#
 - [ ] Pascal
 - [x] Excel
-- [ ] R
+- [x] R
 - [x] Dart
 - [x] Haskell
 - [x] Scala
