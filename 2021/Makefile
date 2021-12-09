@@ -33,4 +33,8 @@ day08:
 	# ===== DAY 08 =====
 	docker-compose run r Rscript solutions/day08.r < input/day08.txt
 
-all: day01 day02 day03 day04 day05 day06 day07 day08
+day09:
+	# ===== DAY 09 =====
+	docker-compose run mono csharp solutions/day09.cs < input/day09.txt
+
+all: day01 day02 day03 day04 day05 day06 day07 day08 day09

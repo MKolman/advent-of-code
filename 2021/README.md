@@ -34,7 +34,7 @@ sorted from what I understand most to least.
 - [ ] Swift
 - [ ] Matlab/Julia/GNU Octave
 - [ ] Kotlin
-- [ ] C#
+- [x] C#
 - [ ] Pascal
 - [x] Excel
 - [x] R
