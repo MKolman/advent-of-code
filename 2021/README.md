@@ -35,7 +35,7 @@ sorted from what I understand most to least.
 - [ ] Matlab/Julia/GNU Octave
 - [ ] Kotlin
 - [x] C#
-- [ ] Pascal
+- [x] Pascal
 - [x] Excel
 - [x] R
 - [x] Dart

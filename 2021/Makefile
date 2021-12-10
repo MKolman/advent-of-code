@@ -37,4 +37,9 @@ day09:
 	# ===== DAY 09 =====
 	docker-compose run mono csharp solutions/day09.cs < input/day09.txt
 
-all: day01 day02 day03 day04 day05 day06 day07 day08 day09
+day10:
+	# ===== DAY 10 =====
+	docker-compose run pascal fpc -FEbin solutions/day10.pas
+	docker-compose run pascal ./bin/day10 < input/day10.txt
+
+all: day01 day02 day03 day04 day05 day06 day07 day08 day09 day10
