@@ -33,7 +33,7 @@ sorted from what I understand most to least.
 - [ ] Perl
 - [ ] Swift
 - [ ] Matlab/Julia/GNU Octave
-- [ ] Kotlin
+- [x] Kotlin
 - [x] C#
 - [x] Pascal
 - [x] Excel

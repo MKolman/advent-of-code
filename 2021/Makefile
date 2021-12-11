@@ -42,4 +42,9 @@ day10:
 	docker-compose run pascal fpc -FEbin solutions/day10.pas
 	docker-compose run pascal ./bin/day10 < input/day10.txt
 
-all: day01 day02 day03 day04 day05 day06 day07 day08 day09 day10
+day11:
+	# ===== DAY 11 =====
+	docker-compose run kotlin kotlinc solutions/day11.kt -d bin
+	docker-compose run kotlin kotlin -classpath bin Day11Kt < input/day11.txt
+
+all: day01 day02 day03 day04 day05 day06 day07 day08 day09 day10 day11
