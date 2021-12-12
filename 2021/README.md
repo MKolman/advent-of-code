@@ -31,7 +31,7 @@ sorted from what I understand most to least.
 - [ ] Bash
 - [ ] PHP
 - [ ] Perl
-- [ ] Swift
+- [x] Swift
 - [ ] Matlab/Julia/GNU Octave
 - [x] Kotlin
 - [x] C#
