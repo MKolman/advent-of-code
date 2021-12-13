@@ -28,7 +28,7 @@ sorted from what I understand most to least.
 - [ ] Ruby
 - [ ] C
 - [ ] Java
-- [ ] Bash
+- [x] Bash
 - [ ] PHP
 - [ ] Perl
 - [x] Swift
