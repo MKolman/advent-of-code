@@ -32,7 +32,7 @@ sorted from what I understand most to least.
 - [ ] PHP
 - [ ] Perl
 - [x] Swift
-- [ ] Matlab/Julia/GNU Octave
+- [x] Matlab/Julia/GNU Octave
 - [x] Kotlin
 - [x] C#
 - [x] Pascal

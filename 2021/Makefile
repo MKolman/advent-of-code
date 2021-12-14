@@ -55,4 +55,8 @@ day13:
 	# ===== DAY 13 =====
 	bash solutions/day13.sh < input/day13.txt
 
-all: day01 day02 day03 day04 day05 day06 day07 day08 day09 day10 day11 day12 day13
+day14:
+	# ===== DAY 14 =====
+	docker-compose run julia julia solutions/day14.jl < input/day14.txt
+
+all: day01 day02 day03 day04 day05 day06 day07 day08 day09 day10 day11 day12 day13 day14
