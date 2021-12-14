@@ -76,4 +76,9 @@ services:
     working_dir: /home/aoc
     volumes:
       - ".:/home/aoc"
+  lua:
+    image: nickblah/lua:alpine
+    working_dir: /home/aoc
+    volumes:
+      - ".:/home/aoc"
 

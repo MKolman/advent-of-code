@@ -40,7 +40,7 @@ class Bingo {
 
 }
 
-object day04_1 {
+object day04 {
     def main(args: Array[String]) = {
         val nums = scala.io.StdIn.readLine().split(',').map(_.toInt)
         var boards = Array[Bingo]()

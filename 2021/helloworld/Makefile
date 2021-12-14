@@ -51,4 +51,6 @@ dart:
 scala:
 	docker-compose run scala scalac helloworld/sum.scala -d helloworld/bin
 	docker-compose run scala scala -classpath helloworld/bin sum < input.txt
-all: python cpp c go bash perl php rust js ruby java swift julia kotlin mono pascal r spl lolcode sql haskell dart scala
+lua:
+	docker-compose run lua lua helloworld/sum.lua < input.txt
+all: python cpp c go bash perl php rust js ruby java swift julia kotlin mono pascal r spl lolcode sql haskell dart scala lua
