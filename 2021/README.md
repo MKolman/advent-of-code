@@ -34,8 +34,8 @@ sorted from what I understand least to most.
 - [x] 12 - [Swift](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day12.swift)
 - [x] 13 - [Bash](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day13.sh)
 - [x] 14 - [Julia](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day14.jl)
+- [x] 15 - [Lua](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day15.lua)
 - [ ] Perl
-- [ ] Lua
 - [ ] PHP
 - [ ] Java
 - [ ] C

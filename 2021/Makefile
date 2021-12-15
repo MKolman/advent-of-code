@@ -59,4 +59,8 @@ day14:
 	# ===== DAY 14 =====
 	docker-compose run julia julia solutions/day14.jl < input/day14.txt
 
-all: day01 day02 day03 day04 day05 day06 day07 day08 day09 day10 day11 day12 day13 day14
+day15:
+	# ===== DAY 15 =====
+	docker-compose run lua lua solutions/day15.lua < input/day15.txt
+
+all: day01 day02 day03 day04 day05 day06 day07 day08 day09 day10 day11 day12 day13 day14 day15
