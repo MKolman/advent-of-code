@@ -35,10 +35,10 @@ sorted from what I understand least to most.
 - [x] 13 - [Bash](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day13.sh)
 - [x] 14 - [Julia](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day14.jl)
 - [x] 15 - [Lua](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day15.lua)
+- [x] 16 - [C](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day16.c)
 - [ ] Perl
 - [ ] PHP
 - [ ] Java
-- [ ] C
 - [ ] Ruby
 - [ ] Rust
 - [ ] C++
