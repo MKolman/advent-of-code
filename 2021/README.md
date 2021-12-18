@@ -37,10 +37,10 @@ sorted from what I understand least to most.
 - [x] 15 - [Lua](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day15.lua)
 - [x] 16 - [C](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day16.c)
 - [x] 17 - [Perl](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day17.pl)
+- [x] 18 - [Rust](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day18.rs)
 - [ ] PHP
 - [ ] Java
 - [ ] Ruby
-- [ ] Rust
 - [ ] C++
 - [ ] Javascript/Typescript
 - [ ] Go

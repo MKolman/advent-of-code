@@ -71,5 +71,10 @@ day16:
 day17:
 	# ===== DAY 17 =====
 	perl solutions/day17.pl < input/day17.txt
+
+day18:
+	# ===== DAY 18 =====
+	rustc solutions/day18.rs -o bin/day18
+	./bin/day18 < input/day18.txt	
 	
-all: day01 day02 day03 day04 day05 day06 day07 day08 day09 day10 day11 day12 day13 day14 day15 day16 day17
+all: day01 day02 day03 day04 day05 day06 day07 day08 day09 day10 day11 day12 day13 day14 day15 day16 day17 day18

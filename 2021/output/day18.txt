@@ -1,0 +1,5 @@
+# ===== DAY 18 =====
+rustc solutions/day18.rs -o bin/day18
+./bin/day18 < input/day18.txt	
+3551
+4555
