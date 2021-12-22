@@ -41,7 +41,7 @@ sorted from what I understand least to most.
 - [x] 19 - [PHP](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day19.php)
 - [x] 20 - [Java](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day20.java)
 - [x] 21 - [Ruby](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day21.rb)
-- [ ] C++
+- [x] 22 - [C++](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day22.cpp)
 - [ ] Javascript/Typescript
 - [ ] Go
 - [ ] Python
