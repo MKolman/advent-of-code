@@ -95,4 +95,8 @@ day22:
 	g++  -Wall -Wextra -pedantic --std=c++17 solutions/day22.cpp -o bin/day22
 	./bin/day22 < input/day22.txt
 
-all: day01 day02 day03 day04 day05 day06 day07 day08 day09 day10 day11 day12 day13 day14 day15 day16 day17 day18 day19 day20 day21
+day23:
+	# ===== DAY 23 =====
+	go run solutions/day23.go < input/day23.txt
+
+all: day01 day02 day03 day04 day05 day06 day07 day08 day09 day10 day11 day12 day13 day14 day15 day16 day17 day18 day19 day20 day21 day22 day23

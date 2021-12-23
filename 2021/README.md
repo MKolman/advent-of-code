@@ -42,8 +42,8 @@ sorted from what I understand least to most.
 - [x] 20 - [Java](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day20.java)
 - [x] 21 - [Ruby](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day21.rb)
 - [x] 22 - [C++](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day22.cpp)
+- [x] 23 - [Go](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day23.go)
 - [ ] Javascript/Typescript
-- [ ] Go
 - [ ] Python
 
 ## Code Golf
