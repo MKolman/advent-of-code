@@ -43,7 +43,7 @@ sorted from what I understand least to most.
 - [x] 21 - [Ruby](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day21.rb)
 - [x] 22 - [C++](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day22.cpp)
 - [x] 23 - [Go](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day23.go)
-- [ ] Javascript/Typescript
+- [x] 24 - [Javascript](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day24.js)
 - [ ] Python
 
 ## Code Golf
