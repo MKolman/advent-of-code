@@ -44,7 +44,7 @@ sorted from what I understand least to most.
 - [x] 22 - [C++](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day22.cpp)
 - [x] 23 - [Go](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day23.go)
 - [x] 24 - [Javascript](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day24.js)
-- [ ] Python
+- [x] 25 - [Python](https://github.com/MKolman/advent-of-code/blob/main/2021/solutions/day25.py)
 
 ## Code Golf
 For some problems I also made a as short as possible solution in python. Stored in `golf` folder.

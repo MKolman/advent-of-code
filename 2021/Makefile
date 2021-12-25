@@ -103,4 +103,8 @@ day24:
 	# ===== DAY 24 =====
 	docker-compose run node node solutions/day24.js < input/day24.txt
 
-all: day01 day02 day03 day04 day05 day06 day07 day08 day09 day10 day11 day12 day13 day14 day15 day16 day17 day18 day19 day20 day21 day22 day23 day24
+day25:
+	# ===== DAY 25 =====
+	python3 solutions/day25.py < input/day25.txt
+
+all: day01 day02 day03 day04 day05 day06 day07 day08 day09 day10 day11 day12 day13 day14 day15 day16 day17 day18 day19 day20 day21 day22 day23 day24 day25
